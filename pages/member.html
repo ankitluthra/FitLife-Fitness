@@ -3,27 +3,30 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
   <header>
-    <div class="container">
-      <img src = "images/logo.png" alt="logo" class="logo">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="classes.html">Classes</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="member.html">Memberships</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-    <form action="submitted.html" class="form-group" id="form-main" style="margin-left: 20%; margin-right: 20%; margin-top: 5%;">
+    <div class="container">
+      <img src = "../images/logo.png" alt="logo" class="logo">
+      <div class="nav">
+        <ul>
+          <li><a class="nav-tabs" href="../index.html">Home</a></li>
+          <li><a class="nav-tabs"href="about.html">About</a></li>
+          <li><a class="nav-tabs"href="classes.html">Classes</a></li>
+          <li><a class="nav-tabs"href="services.html">Services</a></li>
+          <li><a class="nav-tabs"href="member.html">Memberships</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </header>
+  <h1 align="center">Welcome to Fitlife Fitness and Training Center!</h1>
+	<h2 align="center">Membership Registration Form</h2>
+    <form action="submitted.html" class="form-group" id="form-main" style="margin-left: 20%; margin-right: 20%; margin-top: 5%; color: grey;">
         <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" class="form-control" rows="5" id="name" required>
